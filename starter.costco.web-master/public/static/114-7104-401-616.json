@@ -1,0 +1,31 @@
+{
+    "orderDate": "Mar 18 2021",
+    "orderNumber": "114-7104-401-616",
+    "orderTotal": 500,
+    "currency": "$",
+    "numberofItems": 1,
+    "orderStatus":"In Trasit",
+    "shippedOn":"Mar 19 2021",
+    "items":[{
+        "id":"1",
+        "name":"TV",
+        "description":"75 Inch Wallmouting TV",
+        "type":"homegoods"
+    },
+        {"id":"2",
+        "name":"Refrigerator",
+        "description":"4 door french door",
+        "type":"homegoods"}],
+    "shippingAddress": {
+        "street":"678 E Back Ave",
+        "city":"Chandler",
+        "state":"AZ",
+        "zipcode":"85297"
+    },
+    "billingAddress": {
+        "street":"678 E Back Ave",
+        "city":"Chandler",
+        "state":"AZ",
+        "zipcode":"85297"
+    }
+}
