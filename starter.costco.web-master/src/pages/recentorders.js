@@ -34,7 +34,7 @@ const RecentOrders = () => {
       ) {
         return data
       }
-      return data
+      return null
     })
     setSearchOrderList(items)
   }, [search])
@@ -80,7 +80,7 @@ const RecentOrders = () => {
             <OrderList
               orderList={searchOrderList.slice(0, endIndex)}
               search={search}
-             />
+            />
           </>
         ) : (
           <></>
