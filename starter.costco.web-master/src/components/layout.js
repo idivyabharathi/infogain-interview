@@ -7,25 +7,13 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
 
-const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
-
-  return (
+const Layout = ({ children }) => (
     <>
-      <Header siteTitle={'Costco'} />
+      <Header siteTitle="Orders" />
       <div
         style={{
           margin: `0 auto`,
@@ -46,7 +34,6 @@ const Layout = ({ children }) => {
       </div>
     </>
   )
-}
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
